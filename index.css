@@ -1,0 +1,23 @@
+*{
+    font-family:'poppins' ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    align-items: center;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 15px;
+    list-style: none;
+    position: relative;
+}
+.navbar ul li a{
+    color:black;
+    text-decoration: none;
+    background-color: gray;
+
+
+}
+
