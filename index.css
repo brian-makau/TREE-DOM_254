@@ -12,12 +12,19 @@ nav{
     padding: 15px;
     list-style: none;
     position: relative;
+    margin-top: 25px;
+    margin-right: 25px;
+
 }
 .navbar ul li a{
     color:black;
     text-decoration: none;
     background-color: gray;
+    padding: 15px;
 
 
 }
-
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
