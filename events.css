@@ -1,0 +1,38 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h1{
+    padding: 5px;
+    background-color: rgb(255, 255, 255, .2);
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.eventsContent{
+    display: flex;
+    justify-content: space-between;
+
+}
+.dates{
+    background-color: rgb(255, 255, 255, .2);
+    padding: 50px;
+    height: 50vh;
+    width: 30vw;
+    margin-left: 50px;
+}
+.comm_invol{
+    background-color: rgb(255, 255, 255, .2);
+    padding: 50px;
+    height: 50vh;
+    width: 35vw;
+    margin-right: 50px;
+}
+body{
+    background-image: url(./Images/pexels-lisa-1301856.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
