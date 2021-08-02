@@ -1,3 +1,37 @@
-body{
-    font-family: 'poppins' sans-serif;
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/participate.jpg);
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}.H1{
+    background-color: white;
+    border-style: none;
+    text-align: center;
+    padding: 30px;
+}
+.how{
+    background-color: white;
+    border-style: solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.participate{
+    background-color: white;
+    border-style: none;
+    text-align: center;
+}
+.heading{
+    background-color: white;
+    border-style: none;
+    text-align: center;
 }
