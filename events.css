@@ -7,6 +7,14 @@ h1{
     background-color: rgb(255, 255, 255, .2);
     margin-left: 500px;
     margin-right: 500px;
+    text-align: center;
+    font-size: 70px;
+    color: #52A050;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: #52A050;
 }
 .eventsContent{
     display: flex;
@@ -14,18 +22,20 @@ h1{
 
 }
 .dates{
-    background-color: rgb(255, 255, 255, .3);
+    background-color: rgb(255, 255, 255, .2);
     padding: 50px;
-    height: 50vh;
+    height: 1400px;
     width: 30vw;
     margin-left: 50px;
+    margin-bottom: 20px;
 }
 .comm_invol{
     background-color: rgb(255, 255, 255, .2);
     padding: 50px;
-    height: 50vh;
+    height: 1400px;
     width: 35vw;
     margin-right: 50px;
+    margin-bottom: 20px;
 }
 body{
     background-image: url(./Images/pexels-lisa-1301856.jpg);
@@ -34,5 +44,23 @@ body{
     background-position: center;
     background-size: cover;
     position: relative;
+    min-height: 100%;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.pageCont{
+    font-size: 25px;
+}
+h3{
+    font-size: 30px;
+}
+.p_heading{
+    font-size: 30px;
+}
+.heading{
+    font-size: 30px;
+}
+ul li{
+    font-weight: 600;
 }
