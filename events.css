@@ -1,6 +1,6 @@
 *{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+    font-family: 'poppins';
+    align-items: center;
 }
 h1{
     padding: 5px;
@@ -14,7 +14,7 @@ h1{
 
 }
 .dates{
-    background-color: rgb(255, 255, 255, .2);
+    background-color: rgb(255, 255, 255, .3);
     padding: 50px;
     height: 50vh;
     width: 30vw;
