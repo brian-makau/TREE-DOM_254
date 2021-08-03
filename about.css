@@ -25,9 +25,10 @@ h1{
     margin-left: 500px;
     margin-right: 500px;
     padding: 30px;
-    width: 200px;
-    height: 70px;
-    
+    margin: 50px;
+    padding: 30px;
+    margin-top: 20px;
+    font-size: large;
 }
 h2{
     color:#52A050;
