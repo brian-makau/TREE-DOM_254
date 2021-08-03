@@ -5,14 +5,31 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    font-family: 'poppins';
+    text-align: center;
 }
 .who{
-    background-color: white;
+    background-color: rgb(255, 255, 255, .2);
     border-style: none;
+    margin: 50px;   
+    margin-bottom: 20px; 
 
 }
-.h1{
-    background-color: white;
+h1{
+    background-color: rgb(255, 255, 255, .2);
+    text-align: center;
     border-style: none;
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 30px;
+    width: 200px;
+    height: 70px;
     
+}
+h2{
+    color:#52A050;
+  
 }
