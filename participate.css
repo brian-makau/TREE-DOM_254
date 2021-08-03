@@ -2,36 +2,176 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    align-items: center;
+    font-size: 25px;
 }
-.content{
-    height: 100vh;
-    width: 100%;
+body{
+    
     background-image: url(./images/participate.jpg);
     background-position:center;
     background-size: cover;
     position: relative;
-}.H1{
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.H1{
     background-color: white;
     border-style: none;
     text-align: center;
-    padding: 30px;
-}
-.how{
-    background-color: white;
-    border-style: solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 700px;
+    margin-right:700px ;
     text-align: center;
+}
+
+.how{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+   
+    margin-bottom: 20px;  
 }
+
 .participate{
     background-color: white;
     border-style: none;
     text-align: center;
+    margin: 50px;
+    margin-left: 700px;
+   margin-right:700px ;
+   padding:20px;
+    
 }
 .heading{
     background-color: white;
     border-style: none;
     text-align: center;
+    margin-bottom: 20px;
+    margin-left: 850px;
+    margin-right: 850px;
+    padding: 10px;
+    font-weight: 700;
+}
+button{
+    
+    background-color: rgb(52, 204, 52);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.how2{
+    background-color: white;
+    border-style: none;
+    text-align: center;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: rgb(52, 204, 52);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, :focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .button3 {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    align-items: center;
+
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 15px;
+    list-style: none;
+    position: relative;
+    margin-top: 25px;
+    margin-right: 25px;
+
+}
+.navbar ul li a{
+    color:black;
+    text-decoration: none;
+ background-color: #C0C0C0	;
+    padding: 15px;
+
+
+}
+.navbar ul li a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: #3eb034;
+    color:black;
+    }
+.logo{
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    background-color:#C0C0C0	;
+
+
 }
