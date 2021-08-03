@@ -24,18 +24,18 @@ h2{
 .dates{
     background-color: rgb(255, 255, 255, .2);
     padding: 50px;
-    height: 1400px;
+    height: 1500px;
     width: 30vw;
     margin-left: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .comm_invol{
     background-color: rgb(255, 255, 255, .2);
     padding: 50px;
-    height: 1400px;
+    height: 1500px;
     width: 35vw;
     margin-right: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 body{
     background-image: url(./Images/pexels-lisa-1301856.jpg);
@@ -63,4 +63,7 @@ h3{
 }
 ul li{
     font-weight: 600;
+}
+ol li{
+   padding: 15px;
 }
