@@ -3,28 +3,34 @@
     width: 100%;
     font-family: 'poppins';
     text-align: center;
-    position: absolute;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
 
 }
 .who{
     background-color: rgb(255, 255, 255, .2);
     border-style: none;
     margin: 50px;   
-    margin-bottom: 20px; 
-    padding: 10px;
+    margin-bottom: 40px; 
+    
 
 }
 h1{
     background-color: rgb(255, 255, 255, .2);
     text-align: center;
     border-style: none;
-    font-size: large;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    padding: 10px;
-    font-size: large;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-top: -50px;
+    margin-bottom: -40px;
+    font-size: larger;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: lighter;
 }
 h2{
     color:#52A050;
