@@ -53,8 +53,10 @@ nav{
 }
  #slider {
    overflow: hidden;
+   
+   
  }
- #slider figure {
+ #slider>figure {
    position: relative;
    width: 500%;
    margin: 0%;
