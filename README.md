@@ -22,4 +22,4 @@ Steps to follow to access the project;
 ## Support and contact details
 {If you run into any issues or have questions, ideas or concerns, feel free to contact us and make a contribution to the code.}
 ### License
-*{This project is under the [MIT](LICENCE). Copyright (c) {2021} **{TREE-DOM_254}**
+*{This project is under the [MIT LICENCE]. Copyright (c) {2021} **{TREE-DOM_254}**
