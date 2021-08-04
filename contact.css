@@ -1,6 +1,12 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'poppins';
+}
+h1{
+    margin-top: 30px;
+    text-align: center;
+    color: #3EB034;
 }
 body{
     background-image: url(./assets/pexels-min-an-1006122.jpg);
@@ -10,32 +16,34 @@ body{
     background-position: center;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 .contact-box{
     width: 500px;
     position: absolute;
     box-shadow: 0, 0, 20px, 0 white;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 .form-cont{
-    width: 383px;
-    height: 47px;
+    width: 400px;
+    height: 50px;
     margin-top: 20px;
     padding-left: 10px;
-    border: 1px solid;
+    border: none;
     border-radius: 13px;
     outline: none;
     background-color: #C4C4C4;
     font-size: 20px;
 }
 .textArea{
-    height: 132px;
-    width: 383px;
+    height: 130px;
+    width: 400px;
     border-radius: 18px;
     margin-top: 20px;
-    border: 1px solid;
+    border: none;
     background-color: #C4C4C4;
     padding-left: 10px;
     padding-top: 10px;
@@ -43,11 +51,16 @@ body{
 }
 button{
     background-color: #21E835;
+    color: white;
     padding: 10px;
     border-radius: 20px;
     border: none;
     width: 200px;
-    height: 80px;
+    height: 75px;
     margin-top: 20px;
-    
+    font-size: 36px;
+}
+::placeholder{
+    font-weight: 400;
+    color:black;
 }
