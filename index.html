@@ -10,7 +10,6 @@
 
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
-<link rel="stylesheet" type="text/css" href="slide.js">
 
 <body>
     <section class="home">
@@ -31,19 +30,64 @@
      </ul>
     </div>
         </nav>
-        <div id="slider">
-          <figure>
-            <img src="https://image.shutterstock.com/image-photo/green-planet-your-hands-save-600w-1092798047.jpg" height="200px" alt="image1">
-            <img src="https://image.shutterstock.com/image-photo/green-planet-your-hands-save-600w-1092798047.jpg" height="200px" width="30px" alt="image1">
-            <img src="https://image.shutterstock.com/image-photo/new-life-young-plant-sunlight-600w-1691031514.jpg" alt="image1">
-            <img src="https://cdn.shopify.com/s/files/1/0404/2041/files/WAYS_TO_PROTECT_THE_ENVIRONMENT_TB_factory_grande.jpg?v=1551092812 "alt="image1">
-            <img src="https://assets.lybrate.com/eagle/uploads/0830b7055b29efce196385b9e35e4068/7d3b5c.jpg" alt="image1">
+       <div class="slide">
+           <!-- Slideshow container -->
+<div class="slideshow-container">
 
-            
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <!-- <div class="numbertext">1 / 3</div> -->
+      <img src="./assets/fruit.jpeg" style="width:60%">
+      <div class="text">Tree provides us with fruits</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <!-- <div class="numbertext">2 / 3</div> -->
+      <img src="./assets/images (1).jpeg" style="width:60%">
+      <div class="text">Lets plant a and save life</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <!-- <div class="numbertext">3 / 3</div> -->
+      <img src="./assets/pexels-pixabay-302804.jpg" style="width:60%">
+      <div class="text"><strong >A tree makes a good environment </strong></div>
+    </div>
+    <div class="mySlides fade">
+      <!-- <div class="numbertext">3 / 3</div> -->
+      <img src="./assets/img1.jpg" style="width:60%">
+      <div class="text"><strong >provides food to animals</strong></div>
+    </div>
 
-          </figure>
-          
-          
+  
+    
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  
+  <script>
+   var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+    </script>
+       </div>
+      
 
     </section>
 </body>
