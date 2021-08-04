@@ -54,19 +54,7 @@ body{
     padding: 10px;
     font-weight: 700;
 }
-button{
-    
-    background-color: rgb(52, 204, 52);
-    border: none;
-    color:black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
+
 .how2{
     background-color: white;
     border-style: none;
@@ -95,7 +83,7 @@ button{
 }
 .modal-content {
   margin: 50px auto;
-  border: 1px solid #999;
+  border: 1px solid black;
   width: 60%;
 }
 h2{
