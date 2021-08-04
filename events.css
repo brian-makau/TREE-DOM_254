@@ -1,0 +1,145 @@
+*{
+    font-family: 'poppins';
+    align-items: center;
+}
+.h1-events{
+    padding: 5px;
+    background-color: rgb(255, 255, 255, .2);
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: center;
+    font-size: 70px;
+    color: #52A050;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: #52A050;
+}
+.eventsContent{
+    display: flex;
+    justify-content: space-between;
+
+}
+.dates{
+    background-color: rgb(255, 255, 255, .2);
+    padding: 50px;
+    height: 1900px;
+    width: 30vw;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.comm_invol{
+    background-color: rgb(255, 255, 255, .2);
+    padding: 50px;
+    height: 1900px;
+    width: 35vw;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+body{
+    background-image: url(./Images/pexels-lisa-1301856.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.pageCont{
+    font-size: 25px;
+}
+h3{
+    font-size: 30px;
+}
+.p_heading{
+    font-size: 30px;
+}
+.heading{
+    font-size: 30px;
+}
+ul li{
+    font-weight: 600;
+}
+ol li{
+   padding: 15px;
+}
+.contact-box{
+    width: 500px;
+    position: relative;
+    box-shadow: 0, 0, 20px, 0 white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 200px;
+}
+.form-cont{
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 13px;
+    outline: none;
+    background-color: #C4C4C4;
+    font-size: 20px;
+}
+.textArea{
+    height: 130px;
+    width: 400px;
+    border-radius: 18px;
+    margin-top: 20px;
+    border: none;
+    background-color: #C4C4C4;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    outline: none;
+}
+button{
+    background-color: #21E835;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 75px;
+    margin-top: 20px;
+    font-size: 36px;
+}
+::placeholder{
+    font-weight: 400;
+    color:black;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(0, 0, 0, .4);
+    margin-top:150px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.f-logo{
+    display: flex;
+    width: 30vw;
+    text-align: center;
+    margin-top:0px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.f-paragraph{
+    font-size: 15px;
+    width: 30vw;
+    margin-top: 5px;
+}
+.social{
+    font-size: 15px;
+    margin-left: 75px;
+}
