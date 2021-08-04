@@ -191,3 +191,23 @@ button.button1:hover {
   border-bottom: #a99567 1px solid;
   color: #a99567;
 }
+.footer{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: rgb(0, 0, 0, .4);
+}
+.f-logo{
+  display: flex;
+  height: 100px;
+  width: 30vw;
+  text-align: center;
+  margin-top: 30px;
+}
+.f-paragraph{
+  font-size: 25px;
+  width: 40vw;
+}
+.social{
+  font-size: 20px;
+}
