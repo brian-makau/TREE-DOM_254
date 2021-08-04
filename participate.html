@@ -28,24 +28,11 @@
     <div class="how">
         <div class="how2"><h2>Volunteer</h2>
             <p>Fighting Climate Change may seem out of reach for individuals or small companies. However, at TREE-DOM_254, we make it easy for everybody to get involved in environmental conservation.
-            The <strong>Earth</strong> is what we all have in common, and it is everybody's responsibility to keep it habitable, having the future generations in mind.<p>We have a volunteering program, where registered members take part in tree planting activities. Volunteers also take part in online campaigns that include protecting our trees. Each volunteer gets an e-certificate to verify membership. <br><button class="open-button" onclick="openForm ()" class="button">Volunteer</button></p>
-        <div class="form-popup" id="myForm"> 
-            <form class="form-container">
-               
-                <label for="name"><b>Name</b></label>
-                <input type="text" placeholder="Name">
-                <label for="number"><b>Number</b></label>
-                <input type="text" placeholder="Number">
-                <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="Email">
-                <button type="submit" class="button2">Submit</button>
-                <button type="button" class="button3" onclick="closeform()">Close</button>
-
-            </form>
-        </div>
+            The <strong>Earth</strong> is what we all have in common, and it is everybody's responsibility to keep it habitable, having the future generations in mind.<p>We have a volunteering program, where registered members take part in tree planting activities. Volunteers also take part in online campaigns that include protecting our trees. Each volunteer gets an e-certificate to verify membership. <br><button class="button1" data-modal="modalOne" class="button">Volunteer</button></p>
+        
         </div>
        <div class="how2"> <h2>Donate</h2>
-        <p>The challenges facing our natural world have never been greater and the need for bold solutions has never been more urgent. Your generous support will put the best conservation science into action right now—and there are many ways you can help.Our work at TREE-DOM_254 is made possible by the incredible support from our community.</p><p>Your generous contributions make a great impact to our movement, from buying seedlings to facilitating tree planting activities. Once you donate, a tree is planted in your honour. All these efforts are towards mitigating the negative effects of climate change.<br><button class="button">Donate<button></p>
+        <p>The challenges facing our natural world have never been greater and the need for bold solutions has never been more urgent. Your generous support will put the best conservation science into action right now—and there are many ways you can help.Our work at TREE-DOM_254 is made possible by the incredible support from our community.</p><p>Your generous contributions make a great impact to our movement, from buying seedlings to facilitating tree planting activities. Once you donate, a tree is planted in your honour. All these efforts are towards mitigating the negative effects of climate change.<br><button class="button1" data-modal="modalTwo" class="button">Donate<button></p>
             
     </div>
     </div>
@@ -62,16 +49,61 @@
         <li>There are more than 60,000 known tree species on Earth.</li>
     </ul>
 </div>
+<div id="modalOne" class="modal">
+    <div class="modal-content">
+      <div class="register">
+        <a class="close">&times;</a>
+        
+          <h2>Volunteer</h2>
+          <div>
+            <input class="fname" type="text" name="name" placeholder="Full name">
+            <input type="text" name="name" placeholder="Email">
+            <input type="text" name="name" placeholder="Phone number">
+            </div>
+          <button type="submit" href="/">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="modalTwo" class="modal">
+    <div class="modal-content">
+      <div class="register">
+        <span class="close">&times;</span>
+        
+          <h2>Donate</h2>
+          <div>
+            <input class="fname" type="text" name="name" placeholder="Full name">
+            <input type="text" name="name" placeholder="Email">
+            <input type="text" name="name" placeholder="Amount">
+          </div>
+          <button type="submit" href="/">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script>
+    let modalBtns = [...document.querySelectorAll(".button1")];
+    modalBtns.forEach(function(btn) {
+      btn.onclick = function() {
+        let modal = btn.getAttribute('data-modal');
+        document.getElementById(modal)
+          .style.display = "block";
+      }
+    });
+    let closeBtns = [...document.querySelectorAll(".close")];
+    closeBtns.forEach(function(btn) {
+      btn.onclick = function() {
+        let modal = btn.closest('.modal');
+        modal.style.display = "none";
+      }
+    });
+    window.onclick = function(event) {
+      if(event.target.className === "modal") {
+        event.target.style.display = "none";
+      }
+    }
+  </script>
 </section>
-    <script>
-        function openForm() {
-            document.getElementById("myForm").style.display = "block";
-          }
-          
-          function closeForm() {
-            document.getElementById("myForm").style.display = "none";
-          }
-         
-    </script>
+    
 </body>
 </html>
