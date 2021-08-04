@@ -1,5 +1,6 @@
 *{
     font-family:'poppins' ;
+    margin: 0%;
     
 }
 nav{
@@ -42,19 +43,20 @@ nav{
 .n{
     color: #3eb034;
 }
-.home{
+body{
     background-image:url(./assets/pexels-felix-mittermeier-1080400.jpg);
     height: 100vh;
     width: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
+    overflow-x: hidden;
 
 }
 .slide {
     box-sizing:border-box;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .slideshow-container {
@@ -153,23 +155,97 @@ nav{
   }
   
 
-  .footer{
+  .contact-box{
+    width: 500px;
+    position: relative;
+    box-shadow: 0, 0, 20px, 0 white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 200px;
+}
+.form-cont{
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 13px;
+    outline: none;
+    background-color: #C4C4C4;
+    font-size: 20px;
+}
+.textArea{
+    height: 130px;
+    width: 400px;
+    border-radius: 18px;
+    margin-top: 20px;
+    border: none;
+    background-color: #C4C4C4;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    outline: none;
+}
+button{
+    background-color: #21E835;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 75px;
+    margin-top: 20px;
+    font-size: 36px;
+}
+::placeholder{
+    font-weight: 400;
+    color:black;
+}
+footer{
     display: flex;
     justify-content: space-between;
     color: white;
     background-color: rgb(0, 0, 0, .4);
+    margin-top: 70px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
 }
 .f-logo{
     display: flex;
-    height: 100px;
     width: 30vw;
     text-align: center;
-    margin-top: 30px;
+    margin-top:0px;
+    margin-left: 20px;
+    padding: 10px;
 }
 .f-paragraph{
-    font-size: 25px;
-    width: 40vw;
+    font-size: 15px;
+    width: 30vw;
+    margin-top: 5px;
 }
 .social{
-    font-size: 20px;
+    font-size: 15px;
+    margin-left: 75px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
