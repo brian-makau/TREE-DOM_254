@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participate</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="participate.css">
+</head>
+<body>
+    <section class="content">
+      <nav>
+        <div class="logo">
+            <img src="./images/toppng.com-diversity-tree-clipart-630x488.png" height="85px" alt="logo">
+            <h1 class="n">TREE-DOM<br> 254 </h1>
+        </div>
+        <div class="navbar">
+        <ul>
+        <li><a href="#home">HOME</a></li>
+         <li><a href="#about">ABOUT</a></li>
+         <li><a href="#events">EVENTS</a></li>
+        <li><a href = "#participate">PARTICIPATE</a></li>
+        <li><a href = "#learn more">LEARN MORE</a></li>
+        <li><a href = "#contact">CONTACT</a></li>
+     </ul>
+    </div>
+        </nav>
+        <h1 class="heading"><strong>PARTICIPATE</strong></h1>
+    
+
+   <div class="H1"><h1>HOW TO PARTICIPATE</h1></div>
+    
+    <div class="how">
+        <div class="how2"><h2>Volunteer</h2>
+            <p>Fighting Climate Change may seem out of reach for individuals or small companies. However, at TREE-DOM_254, we make it easy for everybody to get involved in environmental conservation.
+            The <strong>Earth</strong> is what we all have in common, and it is everybody's responsibility to keep it habitable, having the future generations in mind.<p>We have a volunteering program, where registered members take part in tree planting activities. Volunteers also take part in online campaigns that include protecting our trees. Each volunteer gets an e-certificate to verify membership. <br><button class="button1" data-modal="modalOne" class="button">Volunteer</button></p>
+        
+        </div>
+       <div class="how2"> <h2>Donate</h2>
+        <p>The challenges facing our natural world have never been greater and the need for bold solutions has never been more urgent. Your generous support will put the best conservation science into action right now—and there are many ways you can help.Our work at TREE-DOM_254 is made possible by the incredible support from our community.</p><p>Your generous contributions make a great impact to our movement, from buying seedlings to facilitating tree planting activities. Once you donate, a tree is planted in your honour. All these efforts are towards mitigating the negative effects of climate change.<br>
+          <button class="button1" data-modal="modalTwo" class="button">Donate</button>
+          
+            
+    </div>
+    </div>
+
+    <div class="participate">
+    <h2><img src="./images/bulb.png" height="50">Fun Facts About Trees<img src="./images/bulb.png" height="50"></h2>
+    <ul type="none">
+        <li>Trees reduce the effects of climate change.</li>
+        <li>Tree rings can predict climate change.</li>
+        <li>Trees block noise by reducing sound waves.</li>
+        <li>Trees improve water quality.</li>
+        <li>For all organisms on Earth, trees live the longest.</li>
+        <li>Trees increase the bird biodiversity of an area.</li>
+        <li>There are more than 60,000 known tree species on Earth.</li>
+    </ul>
+</div>
+<div id="modalOne" class="modal">
+    <div class="modal-content">
+      <div class="register">
+        <a class="close">&times;</a>
+        
+          <h2>Volunteer</h2>
+          <div>
+            <input class="fname" type="text" name="name" placeholder="Full name">
+            <input type="text" name="name" placeholder="Email">
+            <input type="text" name="name" placeholder="Phone number">
+            </div>
+          <button type="submit" href="/">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="modalTwo" class="modal">
+    <div class="modal-content">
+      <div class="register">
+        <span class="close">&times;</span>
+        
+          <h2>Donate</h2>
+          <div>
+            <input class="fname" type="text" name="name" placeholder="Full name">
+            <input type="text" name="name" placeholder="Email">
+            <input type="text" name="name" placeholder="Amount">
+          </div>
+          <button type="submit" href="/">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script>
+    let modalBtns = [...document.querySelectorAll(".button1")];
+    modalBtns.forEach(function(btn) {
+      btn.onclick = function() {
+        let modal = btn.getAttribute('data-modal');
+        document.getElementById(modal)
+          .style.display = "block";
+      }
+    });
+    let closeBtns = [...document.querySelectorAll(".close")];
+    closeBtns.forEach(function(btn) {
+      btn.onclick = function() {
+        let modal = btn.closest('.modal');
+        modal.style.display = "none";
+      }
+    });
+    window.onclick = function(event) {
+      if(event.target.className === "modal") {
+        event.target.style.display = "none";
+      }
+    }
+  </script>
+</section>
+<footer>
+  <div class="footer">
+      <div class="f-logo">
+          <img src="./images/toppng.com-diversity-tree-clipart-630x488.png" height="120x" alt="logo">
+          <h1>TREE-DOM <br>
+              254</h1>
+      </div>
+      <div class="f-paragraph">
+          <p>“Bring life back to our
+              mother earth, ONE TREE
+              AT A TIME.”
+              It starts with us. Come and
+              join us while we embark on this amzing journey, to save the world by planting trees all
+              over world and try to make right what <strong>WE</strong> have done to our wonderful vegetation</p>
+      </div>
+      <div>
+          <div class="social">
+              <h4>SOCIAL</h4>
+              <span>
+                  <img src="./images/mail.svg" alt="mail">
+                  <img src="./images/instagram.svg" alt="instagram">
+                  <img src="./images/twitter.svg" alt="twitter">
+                  <img src="./images/youtube.svg" alt="youtube">
+              </span>
+              <div>
+                  <p>TREE-DOM <br> 254 Copyright &#169; 2021</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+</body>
+</html>
