@@ -1,0 +1,112 @@
+*{
+    font-family:'poppins' ;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    align-items: center;
+
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 15px;
+    list-style: none;
+    position: relative;
+    margin-top: 25px;
+    margin-right: 25px;
+
+}
+.navbar ul li a{
+    color:black;
+    text-decoration: none;
+ background-color: #C0C0C0	;
+    padding: 15px;
+
+
+}
+.navbar ul li a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: #3eb034;
+    color:black;
+    }
+.logo{
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    background-color:#C0C0C0	;
+
+
+}
+.n{
+    color: #3eb034;
+}
+.home{
+    background-image:url(./assets/pexels-felix-mittermeier-1080400.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+ #slider {
+   overflow: hidden;
+   
+   
+ }
+ #slider>figure {
+   position: relative;
+   width: 500%;
+   margin: 0%;
+   left: 0%;
+   animation: 20s slider infinite;
+ }
+ #slider * {
+  box-sizing: border-box;
+  border-radius: 3px 0 0 3px;
+}
+ #slider figure img{
+   width: 20%;
+   float: left;
+   text-align: center;
+   
+  display: table;
+
+
+
+ }
+ @keyframes slider{
+   0%{
+     left: 20%;
+   }
+   20%{
+     left: 0;
+   }
+   25%{
+     left: -100%;
+   }
+   45%{
+     left: -100%;
+   }
+   50%{
+     left: -200%;
+   }
+   
+   75%{
+    left: -300%;
+  }
+  95%{
+    left: -300%;
+  }
+  100%{
+    left: -400%;
+  }
+  
+  
+
+
+ } 
+
+   
