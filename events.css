@@ -1,12 +1,14 @@
 *{
     font-family: 'poppins';
     align-items: center;
+    margin: 0px;
 }
 .h1-events{
     padding: 5px;
     background-color: rgb(255, 255, 255, .2);
     margin-left: 500px;
     margin-right: 500px;
+    margin-top: 50px;
     text-align: center;
     font-size: 70px;
     color: #52A050;
@@ -27,6 +29,7 @@ h2{
     height: 1900px;
     width: 30vw;
     margin-left: 50px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 .comm_invol{
@@ -36,6 +39,7 @@ h2{
     width: 35vw;
     margin-right: 50px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 body{
     background-image: url(./Images/pexels-lisa-1301856.jpg);
@@ -51,6 +55,7 @@ body{
 }
 .pageCont{
     font-size: 25px;
+    margin-top: 30px;
 }
 h3{
     font-size: 30px;
@@ -60,6 +65,7 @@ h3{
 }
 .heading{
     font-size: 30px;
+    margin-top: 30px;
 }
 ul li{
     font-weight: 600;
